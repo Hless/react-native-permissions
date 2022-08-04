@@ -55,8 +55,6 @@ public class RNPermissionsModule extends ReactContextBaseJavaModule implements P
   private @Nullable String getFieldName(final String permission) {
     if (permission.equals("android.permission.ACCEPT_HANDOVER"))
       return "ACCEPT_HANDOVER";
-    if (permission.equals("android.permission.ACCESS_BACKGROUND_LOCATION"))
-      return "ACCESS_BACKGROUND_LOCATION";
     if (permission.equals("android.permission.ACCESS_COARSE_LOCATION"))
       return "ACCESS_COARSE_LOCATION";
     if (permission.equals("android.permission.ACCESS_FINE_LOCATION"))
@@ -77,8 +75,6 @@ public class RNPermissionsModule extends ReactContextBaseJavaModule implements P
       return "BLUETOOTH_SCAN";
     if (permission.equals("android.permission.BODY_SENSORS"))
       return "BODY_SENSORS";
-    if (permission.equals("android.permission.BODY_SENSORS_BACKGROUND"))
-      return "BODY_SENSORS_BACKGROUND";
     if (permission.equals("android.permission.CALL_PHONE"))
       return "CALL_PHONE";
     if (permission.equals("android.permission.CAMERA"))

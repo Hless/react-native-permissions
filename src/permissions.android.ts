@@ -3,7 +3,6 @@ import type {WindowsPermissionMap} from './permissions.windows';
 
 const ANDROID = Object.freeze({
   ACCEPT_HANDOVER: 'android.permission.ACCEPT_HANDOVER',
-  ACCESS_BACKGROUND_LOCATION: 'android.permission.ACCESS_BACKGROUND_LOCATION',
   ACCESS_COARSE_LOCATION: 'android.permission.ACCESS_COARSE_LOCATION',
   ACCESS_FINE_LOCATION: 'android.permission.ACCESS_FINE_LOCATION',
   ACCESS_MEDIA_LOCATION: 'android.permission.ACCESS_MEDIA_LOCATION',
@@ -14,7 +13,6 @@ const ANDROID = Object.freeze({
   BLUETOOTH_CONNECT: 'android.permission.BLUETOOTH_CONNECT',
   BLUETOOTH_SCAN: 'android.permission.BLUETOOTH_SCAN',
   BODY_SENSORS: 'android.permission.BODY_SENSORS',
-  BODY_SENSORS_BACKGROUND: 'android.permission.BODY_SENSORS_BACKGROUND',
   CALL_PHONE: 'android.permission.CALL_PHONE',
   CAMERA: 'android.permission.CAMERA',
   GET_ACCOUNTS: 'android.permission.GET_ACCOUNTS',

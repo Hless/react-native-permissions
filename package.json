@@ -1,5 +1,5 @@
 {
-  "name": "react-native-permissions",
+  "name": "@intractive/react-native-permissions",
   "version": "3.6.0",
   "license": "MIT",
   "description": "An unified permissions API for React Native on iOS, Android and Windows",
